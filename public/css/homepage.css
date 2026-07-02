@@ -1,0 +1,12 @@
+.log_line {
+    text-align: center;
+}
+
+.skills_list {
+   display: flex;
+    list-style: none;
+}
+
+.body {
+    background-image: url('images/5vqa82.jpg');
+}

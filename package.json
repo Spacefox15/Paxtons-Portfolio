@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "name": "paxtons-portfolio",
+  "version": "1.0.0",
+  "description": "**Version 0.1:**\r All Main Html Elements and Content",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spacefox15/Paxtons-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spacefox15/Paxtons-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Spacefox15/Paxtons-Portfolio#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.8"
+  }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&display=swap');
+body {
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {    
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.25);
+    position: sticky;
+}
+
+.header_name {
+    background-color: #001011;
+    text-align: center;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: auto;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1A936F;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_link {
+    margin: 0 15px;
+    color: #1A936F;
+    text-transform: uppercase;
+}
+
+.nav_link a:link, .nav_link a:visited, .nav_link a:active {
+    color: #001011;
+    text-decoration: none;
+}
+
+.nav_link a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.body {
+   background-color: white;
+   padding: 20px;
+   font-family: "Oswald", sans-serif;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
