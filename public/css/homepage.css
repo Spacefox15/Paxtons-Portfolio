@@ -1,12 +1,107 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 50px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.hero_photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    z-index: 0;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to left, rgba(0, 16, 17, 0.92) 0%, rgba(0, 16, 17, 0.75) 35%, rgba(0, 16, 17, 0.25) 65%, rgba(0, 16, 17, 0) 100%);
+}
+
 .log_line {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    max-width: 40%;
+    margin: 0;
+    padding: 0 40px;
+    font-size: 1.3em;
+    font-style: italic;
+    color: white;
+    text-align: right;
+}
+
+.key_skills {
+    max-width: 900px;
+    margin: 0 auto 50px;
     text-align: center;
 }
 
-.skills_list {
-   display: flex;
-    list-style: none;
+.key_skills h2,
+.project_highlights h2 {
+    text-transform: uppercase;
+    color: #001011;
+    letter-spacing: 1px;
 }
 
-.body {
-    background-image: url('images/5vqa82.jpg');
+.skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    gap: 12px;
+}
+
+.skills_list li {
+    background-color: #1A936F;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 0.95em;
+}
+
+.project_highlights {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta_button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 28px;
+    background-color: #001011;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.cta_button:hover {
+    background-color: #1A936F;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 320px;
+    }
+
+    .log_line {
+        max-width: 85%;
+        padding: 0 20px;
+        font-size: 1.05em;
+    }
 }
