@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1 className='title'>Projects</h1>
-      <Search/>
+      {/*<Search/>*/}
       {/*<Sort/>*/}
       <div className='project-list'>
         {projects.map(project => (
