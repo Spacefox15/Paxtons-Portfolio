@@ -3,7 +3,9 @@
 body {
     background-color: black;
     margin: 0;
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -132,8 +134,15 @@ header {
     }
 }
 
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .body {
    background-color: white;
+   flex: 1;
    padding: 20px;
    font-family: "Oswald", sans-serif;
 }
@@ -145,7 +154,4 @@ header {
     text-align: center;
 }
 
-.hero {
-
-}
 

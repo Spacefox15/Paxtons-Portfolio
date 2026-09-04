@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/projects.css">
     <script src="/javascript/nav.js" defer></script>
     <title>Paxton M. Calareso</title>
 </head>
@@ -38,9 +39,9 @@
 
 <div class="body">
     <section class="hero">
-        <img class="hero_photo" src="/images/1778883903494.jpg" alt="Paxton M. Calareso">
-        <blockquote class="log_line">A passionate and dedicated professional with a strong background in project management and leadership looking to make a meaningful impact in a dynamic environment.</blockquote>
-    </section>
+        <!--<img class="hero_photo" src="/images/1778883903494.jpg" alt="Paxton M. Calareso"> -->
+        <blockquote class="log_line">"I turn ideas into finished work, and I bring the team with me. Strong at the start, strong at the finish. Give me a hard problem with no clear path and a team that needs pointing, and I'm exactly where I want to be."</blockquote>
+     </section>
 
     <section class="key_skills">
         <h2>Key Skills</h2>
@@ -54,7 +55,8 @@
 
     <section class="project_highlights">
         <h2>Project Highlights</h2>
-        <a class="cta_button" href="projects.html">View Projects</a>
+        <div><div id="highlights" class="highlights"></div></dib>
+                <a class="cta_button" href="projects.html">View Projects</a>
     </section>
 </div>
 
@@ -65,4 +67,9 @@
 </div>
 
 </div>
+
+    <script type="module" src="/src/projects/main.jsx"></script>
+    <script src="/javascript/projects.js"></script>
+
+    
 </body>

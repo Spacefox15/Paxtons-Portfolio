@@ -12,22 +12,22 @@ const projects = [
 {
     id: 2, 
     name: "Personal Portfolio Website",
-    image: "/images/5vqa82.jpg",
-    skills: ["HTML", "CSS", "JavaScript","React","ClaudeCode"],
+    image: "public/images/Screenshot 2026-09-04 at 01-28-05 Paxton M. Calareso.png",
+    skills: ["HTML", "CSS", "JavaScript","React","Claude Code"],
     AI: true,
     description: "Designed and built personal portfolio website to show projects and skills, acting a digtal indept resume/CV. Used Claude Code to learn and devlop/push React elements on projects page to have dynamic search.",
     link: "https://paxtoncalareso.com",
-    github: "#"
+    github: "https://github.com/Spacefox15/Paxtons-Portfolio"
 },
 {
     id: 2, 
     name: "Meal Planner App",
-    image: "/images/5vqa82.jpg",
-    skills: ["ClaudeCode", "Django"],
+    image: "public/images/Screenshot 2026-09-04 at 01-33-34 Meal Planner.png",
+    skills: ["HTML", "CSS", "JavaScript","React","Claude Code"],
     AI: true,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "Public Version Coming Soon! - An AI generated meal planner app that allows users to input dietary restrictions and preferences, and generates a weekly meal plan with recipes and grocery lists. Used Claude Code to generate the app and its features.",
     link: "#",
-    github: "#"
+    github: "https://github.com/Spacefox15/Meal-Planner-App"
 },
  ]
 
